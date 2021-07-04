@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 with open('project_3_data.json') as f:
   player_data = json.load(f)
 player_id=0
@@ -23,23 +24,27 @@ while player_id<len(player_data):
     player_data[player_id]['history']=temp_player_data
     player_id+=1
 player_id=0
+
 while player_id<len(player_data):
   previous_year=0
   temp_player_data=[]
   
   for years in range (len(player_data[player_id]['history'])):
 
-    
-    
     year=int(player_data[player_id]['history'][years]['date'].split( )[2])
     
     if(year!=previous_year and previous_year!=0):   
       temp_player_data.append(player_data[player_id]['history'][years-1].copy()) 
     previous_year=year
-    
+    player_data[player_id]['history'][years]['year']=year
   player_data[player_id]['history']=temp_player_data
   
-  
+  for years in range (len(player_data[player_id]['history'])-1):
+    player_data[player_id]['history'][years]['z']=player_data[player_id]['history'][years+1]['value']/player_data[player_id]['history'][years]['value']
   if(player_data[player_id]['name']=='Eden Hazard'):
     print(player_data[player_id]['history'])
-  player_id+=1
+  player_id+=1   
+
+k = Counter(name['position'] for name in player_data)
+print(k)
+
