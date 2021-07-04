@@ -3337,7 +3337,7 @@
         "team": "Real Madrid U19"
     }, {
         "age": 19,
-        "value": 0,
+        "value": 220000,
         "date": "Aug 4, 2014",
         "team": "Real Madrid Castilla"
     }, {
@@ -12626,7 +12626,7 @@
         "team": "Real Betis B"
     }, {
         "age": 19,
-        "value": 0,
+        "value": 220000,
         "date": "Sep 30, 2015",
         "team": "Real Betis B"
     }, {
@@ -23890,7 +23890,7 @@
     "position": "Centre Midfield",
     "history": [{
         "age": 20,
-        "value": 0,
+        "value": 330000,
         "date": "Jul 12, 2014",
         "team": "RCD Espanyol B"
     }, {
@@ -26544,7 +26544,7 @@
         "team": "Manchester United"
     }, {
         "age": 19,
-        "value": 0,
+        "value": 110000,
         "date": "Jul 6, 2012",
         "team": "Manchester United"
     }, {
@@ -30536,7 +30536,7 @@
     "position": "Centre Forward",
     "history": [{
         "age": 20,
-        "value": 0,
+        "value": 1100000,
         "date": "Jul 12, 2014",
         "team": "Bilbao Athletic"
     }, {
@@ -41950,7 +41950,7 @@
     "position": "Centre Back",
     "history": [{
         "age": 19,
-        "value": 0,
+        "value": 550000,
         "date": "Jul 12, 2014",
         "team": "Bilbao Athletic"
     }, {
@@ -42133,7 +42133,7 @@
         "team": "Real Madrid Castilla"
     }, {
         "age": 20,
-        "value": 0,
+        "value": 660000,
         "date": "Jul 12, 2014",
         "team": "Real Madrid Castilla"
     }, {
@@ -42836,7 +42836,7 @@
         "team": "CD Basconia"
     }, {
         "age": 19,
-        "value": 0,
+        "value": 660000,
         "date": "Jul 12, 2014",
         "team": "Bilbao Athletic"
     }, {
